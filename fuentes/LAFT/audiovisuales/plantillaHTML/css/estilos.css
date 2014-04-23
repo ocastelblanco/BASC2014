@@ -1,0 +1,103 @@
+#LAFT body {
+    background-color: #9c53b4;
+}
+header {
+    color: #fff;
+}
+header h1 {
+    font-size: 36px;
+    margin-top: 80px;
+}
+header h1 small {
+    font-size: 18px;
+    color: #FFF;
+    display: block;
+}
+.barraNav {
+    height: 65px;
+}
+.barraNav .moduloActual {
+    display: block;
+    background-color: #323a45;
+    width: 100%;
+    height: 59px;
+    padding-top: 4px;
+    font-size: 36px;
+    text-align: center;
+    color: #FFF; 
+}
+.barraNav .moduloActual:hover {
+    text-decoration: none;
+    color: #BBB;
+}
+.barraNav .moduloActual .triangulo {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 6px 13px 0 0;
+    border-color: #00c0ff transparent transparent transparent;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+    background-image: url(../images/fondoNavUl.png);
+    background-position: 2px;
+    position: absolute;
+    top: 59px;
+    right: 15px;
+}
+.barraNav .interCol {
+    background-image: url(../images/fondoNavUl.png);
+    height: 59px;
+    width: 15px;
+    position: absolute;
+    left: -15px;
+}
+.barraNav .vinculos {
+    background-image: url(../images/fondoNavUl.png);
+    margin-top: 6px; 
+    height: 59px;       
+}
+.barraNav .vinculos a {
+    display: block;
+    color: #FFF;
+    font-size: 14px;
+text-align: center;
+position: absolute;
+top: 1000%;
+margin-top: -20px;
+height: 59px;
+width: 100%;
+}
+/* Hacks a bootstrap.css */
+.navbar {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-header {
+    width: 212px;
+}
+.navbar-default .navbar-brand {
+}
+.navbar-default .navbar-brand:hover {
+}
+.nav.navbar-nav {
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #FFF;
+    background-color: rgba(255,255,255,0.15);
+    height: 59px;
+    padding-top: 20px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+    height: 59px;
+    padding-top: 20px;
+    font-size: 16px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #FFF;
+    background-color: rgba(255,255,255,0.15);
+}
+/* */
