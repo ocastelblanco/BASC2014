@@ -1,6 +1,12 @@
-#LAFT body {
+/* Colores por cada curso */
+#LAFT body,
+#LAFT .barraNav .finCol {
     background-color: #9c53b4;
 }
+#LAFT #contenido section {
+    background-color: #c294d1;
+}
+/* Estilos generales para todos los cursos */
 header {
     color: #fff;
 }
@@ -19,16 +25,11 @@ header h1 small {
 .barraNav .moduloActual {
     display: block;
     background-color: #323a45;
-    width: 100%;
     height: 59px;
     padding-top: 4px;
     font-size: 36px;
     text-align: center;
     color: #FFF; 
-}
-.barraNav .moduloActual:hover {
-    text-decoration: none;
-    color: #BBB;
 }
 .barraNav .moduloActual .triangulo {
     width: 0px;
@@ -40,7 +41,7 @@ header h1 small {
     -moz-transform: rotate(360deg);
     transform: rotate(360deg);
     background-image: url(../images/fondoNavUl.png);
-    background-position: 2px;
+    background-position: 1px;
     position: absolute;
     top: 59px;
     right: 15px;
@@ -51,53 +52,78 @@ header h1 small {
     width: 15px;
     position: absolute;
     left: -15px;
+    background-position: 1px;
+}
+.barraNav .finCol {
+    height: 59px;
+    width: 15px;
+    position: absolute;
+    right: 0px;
+    background-position: 1px;
+    top: 0px;
 }
 .barraNav .vinculos {
     background-image: url(../images/fondoNavUl.png);
     margin-top: 6px; 
     height: 59px;       
 }
+.barraNav .vinculo {
+    display: table;
+    height: 59px;
+}
 .barraNav .vinculos a {
-    display: block;
+    display: table-cell;
     color: #FFF;
-    font-size: 14px;
-text-align: center;
-position: absolute;
-top: 1000%;
-margin-top: -20px;
-height: 59px;
-width: 100%;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
 }
-/* Hacks a bootstrap.css */
-.navbar {
-    background-color: transparent;
-    border-color: transparent;
+.barraNav .vinculos a.activo,
+.barraNav .vinculos a:hover,
+.barraNav .moduloActual:hover {
+    color: #BBB;
+    text-decoration: none;
 }
-.navbar-default .navbar-header {
-    width: 212px;
+#contenido {
+    margin-top: 18px;
 }
-.navbar-default .navbar-brand {
+#contenido section {
+    border-radius: 10px;
+    padding: 22px 18px;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
 }
-.navbar-default .navbar-brand:hover {
+#contenido section h1 {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 0 10px;
 }
-.nav.navbar-nav {
+#contenido section figure {
+    margin-bottom: 10px;
 }
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-    color: #FFF;
-    background-color: rgba(255,255,255,0.15);
-    height: 59px;
-    padding-top: 20px;
+nav.paginacion {
+    text-align: center;
 }
-.navbar-default .navbar-nav>li>a {
-    color: #FFF;
-    height: 59px;
-    padding-top: 20px;
-    font-size: 16px;
+nav.paginacion .pagination li span,
+nav.paginacion .pagination li a {
+    display: inline-block;
+    width: 38px;
+    font-size: 18px;
+    line-height: 1em;
+    color: #fff;
+    background-color: #35aad9;
+    border-radius: 100%;
+    padding: 11px 0 10px;
+    text-align: center;
+    border: none;
+    margin-left: 5px;
 }
-.navbar-default .navbar-nav>li>a:hover {
-    color: #FFF;
-    background-color: rgba(255,255,255,0.15);
+nav.paginacion .pagination li a:hover,
+nav.paginacion .pagination li.active span,
+nav.paginacion .pagination li.active a {
+    color: #BBB;
+}
+nav.paginacion .pagination li.disabled span,
+nav.paginacion .pagination li.disabled a {
+    background-color: rgba(53,170,217,0.5);
 }
 /* */
