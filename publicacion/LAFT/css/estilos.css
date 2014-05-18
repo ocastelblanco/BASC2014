@@ -1,0 +1,235 @@
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700);
+/* Colores por cada curso */
+#LAFT body,
+#LAFT .barraNav .finCol {
+    background-color: #9c53b4;
+}
+#LAFT #contenido section {
+    background-color: #c294d1;
+}
+/* Estilos generales para todos los cursos */
+header {
+    color: #fff;
+}
+header h1 {
+    font-size: 36px;
+    margin-top: 80px;
+}
+header h1 small {
+    font-size: 18px;
+    color: #FFF;
+    display: block;
+}
+.barraNav {
+    height: 65px;
+}
+.barraNav .moduloActual {
+    display: block;
+    background-color: #323a45;
+    height: 59px;
+    padding-top: 4px;
+    font-size: 36px;
+    text-align: center;
+    color: #FFF; 
+}
+.barraNav .moduloActual .triangulo {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 6px 13px 0 0;
+    border-color: #00c0ff transparent transparent transparent;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+    background-image: url(../images/fondoNavUl.png);
+    background-position: 1px;
+    position: absolute;
+    top: 59px;
+    right: 15px;
+}
+#abrirMenu {
+    display: none;
+}
+.barraNav .interCol {
+    background-image: url(../images/fondoNavUl.png);
+    height: 59px;
+    width: 15px;
+    position: absolute;
+    left: -15px;
+    background-position: 1px;
+}
+.barraNav .finCol {
+    height: 59px;
+    width: 15px;
+    position: absolute;
+    right: 0px;
+    background-position: 1px;
+    top: 0px;
+}
+.barraNav .vinculos {
+    background-image: url(../images/fondoNavUl.png);
+    margin-top: 6px; 
+    height: 59px;       
+}
+.barraNav .vinculo {
+    display: table;
+    height: 59px;
+}
+.barraNav .vinculos a {
+    display: table-cell;
+    color: #FFF;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+.barraNav .vinculos a.activo,
+.barraNav .vinculos a:hover,
+.barraNav .moduloActual:hover {
+    color: #BBB;
+    text-decoration: none;
+}
+#contenido {
+    margin-top: 18px;
+}
+#contenido section {
+    border-radius: 10px;
+    padding: 22px 18px;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+}
+#contenido section h1 {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 0 10px;
+}
+#contenido section figure {
+    margin-bottom: 10px;
+}
+nav.paginacion {
+    text-align: center;
+}
+nav.paginacion .pagination li span,
+nav.paginacion .pagination li a {
+    display: inline-block;
+    width: 38px;
+    font-size: 18px;
+    line-height: 1em;
+    color: #fff;
+    background-color: #35aad9;
+    border-radius: 100%;
+    padding: 11px 0 10px;
+    text-align: center;
+    border: none;
+    margin-left: 5px;
+}
+nav.paginacion .pagination li a:hover,
+nav.paginacion .pagination li.active span,
+nav.paginacion .pagination li.active a {
+    color: #BBB;
+}
+nav.paginacion .pagination li.disabled span,
+nav.paginacion .pagination li.disabled a {
+    background-color: rgba(53,170,217,0.5);
+}
+figure.sensei figcaption {
+    border: solid 2px #323a45;
+    background-color: #323a45;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+figure.sensei figcaption h2 {
+    font-size: 22px;
+    text-align: center;
+}
+figure.sensei figcaption:before {
+    content: "<";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 17.3px 10px 0;
+    border-color: transparent #323a45 transparent transparent;
+    text-indent: 99999px;
+    overflow: hidden;
+}
+figure.periodico {
+    background-color: #EEEEE0;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #000;
+    border-radius: 2px;
+}
+figure.periodico h1 {
+    color: #000 !important;
+    font-family: 'Vollkorn', serif;
+    font-size: 32px !important;
+    text-align: center;
+    margin-top: 20px !important;
+}
+figure.periodico h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+figure.periodico figcaption {
+    font-style: italic;    
+}
+figure.periodico:before {
+    content: "El Informador";
+    text-transform: uppercase;
+    font-family: 'Vollkorn', serif;
+    font-size: 42px;
+    border-top: solid 4px #f00;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+    width: 75%;
+    text-align: center;
+    color: #000;
+}
+/* CSS media queries */
+@media (max-width: 767px) {
+    header h1 {
+        margin-top: 0;
+    }
+    .barraNav {
+        height: inherit;
+    }
+    #abrirMenu {
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        right: 30px;
+    }
+    .barraNav .vinculos {
+        background-image: none;
+        margin-top: 0px;
+        height: inherit;
+    }
+    .barraNav .vinculo {
+        width: 100%;
+        height: 44px;
+    }
+    .barraNav .vinculo a {
+        background-image: url(../images/fondoNavUl.png);
+        height: 100%;
+    }
+    .barraNav .col-sm-3,
+    .barraNav .vinculos {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (max-width: 991px) {
+    #contenido {
+        margin-top: 0;
+    }
+    #contenido section {
+        margin-top: 10px;
+    }
+}
