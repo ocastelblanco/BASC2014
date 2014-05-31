@@ -199,6 +199,22 @@ figure.periodico-final img {
     padding: 20px;
     border-radius: 10px;
 }
+#presaberes .radio {
+    padding: 6px 12px 6px 30px;
+    border-color: #fff;
+}
+#presaberes .radio.form-control {
+    background: transparent;
+}
+#presaberes .radio.has-success {
+    border-color: #3c763d;
+}
+#presaberes .radio.has-error {
+    border-color: #a94442;
+}
+#presaberes i.form-control-feedback {
+    float: right;
+}
 /* CSS media queries */
 @media (max-width: 767px) {
     header h1 {
