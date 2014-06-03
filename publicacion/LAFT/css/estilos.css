@@ -89,12 +89,12 @@ header h1 small {
     text-decoration: none;
 }
 #contenido {
-    margin-top: 18px;
 }
 #contenido section {
     border-radius: 10px;
     padding: 22px 18px;
     box-shadow: 0 0 8px rgba(0,0,0,.3);
+    margin-top: 18px;
 }
 #contenido section h1 {
     font-size: 24px;
@@ -129,6 +129,24 @@ nav.paginacion .pagination li.active a {
 nav.paginacion .pagination li.disabled span,
 nav.paginacion .pagination li.disabled a {
     background-color: rgba(53,170,217,0.5);
+}
+figure.imgInline {
+    padding: 4px;
+    margin-bottom: 20px !important;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+figure.imgInline img {
+    max-width: 100%;
+    height: auto !important;
+}
+figure.imgInline figcaption {
+    font-size: 12px;
+    text-align: right;
 }
 figure.sensei figcaption {
     border: solid 2px #323a45;
@@ -214,6 +232,47 @@ figure.periodico-final img {
 }
 #presaberes i.form-control-feedback {
     float: right;
+}
+a.bibliografia {
+    white-space: nowrap;
+}
+a.bibliografia:hover {
+    text-decoration: none;
+}
+.sabiaque {
+    color: #fff;
+    padding: 1em;
+    border: solid 2px #323a45;
+    background-color: #323a45;
+    border-radius: 15px;
+    margin-bottom: 20px !important;
+}
+.sabiaque.derecha img {
+    float: right;
+    margin-left: 1.5em;
+}
+.sabiaque.izquierda img {
+    float: left;
+    margin-right: 1.5em;
+}
+.sabiaque img {
+    width: 7em;
+    height: auto;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    background-color: #c294d1;
+    border-radius: 50%;
+}
+.sabiaque figcaption {
+    text-align: justify;
+}
+.lineaTiempo .btn-group {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: solid 1px #fff;
+}
+.lineaTiempo .btn-group:last-of-type {
+    border-bottom: solid 1px #fff;
 }
 /* CSS media queries */
 @media (max-width: 767px) {

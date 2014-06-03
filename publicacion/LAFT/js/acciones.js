@@ -31,6 +31,23 @@ $(function(){
         $('.vinculos').toggle("slide", {direction: "up", easing:"easeInQuint"}, 'slow');
     });
     alistaPresaberes();
+    $('a.bibliografia').popover({
+        'container': 'body',
+        'placement': 'auto top'
+    }).click(function(evento) {
+        evento.preventDefault();
+    }).prepend('<i class="fa fa-book"></i>&nbsp;');
+    $('.lineaTiempo a').popover({
+        'container': 'body',
+        'placement': 'auto top',
+        'trigger': 'hover'
+    }).prepend('<i class="fa fa-chevron-circle-up"></i>&nbsp;');
+    $('.lineaTiempo button').popover({
+        'container': 'body',
+        'placement': 'auto top',
+        'trigger': 'hover'
+    });
+    $('a.bocadillo').tooltip({'container': 'body'}).click(function(evento) {evento.preventDefault();});
 });
 function ajustarMenu(){
     if(window.innerWidth < 768){
