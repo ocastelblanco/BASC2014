@@ -219,10 +219,36 @@ figure.periodico-final img {
 }
 #presaberes .radio {
     padding: 6px 12px 6px 30px;
-    border-color: #fff;
+    color: #fff;
 }
-#presaberes .radio.form-control {
-    background: transparent;
+#LAFT #presaberes .radio.form-control {
+    background: #a06fb1;
+    border-color: #a06fb1;
+}
+#LAFT .sabiaque {
+    border: solid 2px #323a45;
+    background-color: #323a45;
+}
+#LAFT .sabiaque img {
+    background-color: #c294d1;
+}
+#LAFT .lineaTiempo div a.tipo1 {
+    background-color: #74b233;
+    border: 2px solid #bad89a;
+}
+#LAFT .lineaTiempo div a.tipo2 {
+    background-color: #3b8acd;
+    border: 2px solid #1a6fb2;
+}
+#LAFT .lineaTiempo div:after {
+    border-top: 2px solid #924ba9;    
+}
+#LAFT .lineaTiempo div:first-of-type:before,
+#LAFT .lineaTiempo div:last-of-type:before {
+    background-color: #924ba9;
+}
+#LAFT .lineaTiempo h2:after {
+    background-image: url(../images/LAFT_LineaTiempo.png);
 }
 #presaberes .radio.has-success {
     border-color: #3c763d;
@@ -242,8 +268,6 @@ a.bibliografia:hover {
 .sabiaque {
     color: #fff;
     padding: 1em;
-    border: solid 2px #323a45;
-    background-color: #323a45;
     border-radius: 15px;
     margin-bottom: 20px !important;
 }
@@ -260,19 +284,94 @@ a.bibliografia:hover {
     height: auto;
     padding: 0.5em;
     margin-bottom: 1em;
-    background-color: #c294d1;
     border-radius: 50%;
 }
 .sabiaque figcaption {
     text-align: justify;
 }
-.lineaTiempo .btn-group {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-top: solid 1px #fff;
+.lineaTiempo h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    width: 8em;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    position: relative;
 }
-.lineaTiempo .btn-group:last-of-type {
-    border-bottom: solid 1px #fff;
+.lineaTiempo h2 span {
+    font-weight: bolder;
+    letter-spacing: 0;
+}
+.lineaTiempo h2:after {
+    content: "";
+    display: block;
+    width: 2em;
+    height: 1.906em;
+    position: absolute;
+    right: 1.5em;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.lineaTiempo div {
+    position: relative;
+    height: 75px;
+}
+.lineaTiempo div:after {
+    content: "";
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 25px;
+    z-index: 0;
+}
+.lineaTiempo div:first-of-type:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 21px;
+    z-index: 1;
+}
+.lineaTiempo div:last-of-type:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 21px;
+    right: 0;
+    z-index: 2;
+}
+.lineaTiempo div a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    line-height: 1.25em;
+    padding: 0.25em;
+    position: absolute;
+    z-index: 10;
+}
+.lineaTiempo div a:hover {
+    text-decoration: none;
+}
+.lineaTiempo div a:nth-of-type(1){
+    margin-left: 10%;
+}
+.lineaTiempo div a:nth-of-type(2){
+    margin-left: 35%;
+}
+.lineaTiempo div a:nth-of-type(3){
+    margin-left: 60%;
+}
+.lineaTiempo div a:nth-of-type(4){
+    margin-left: 85%;
 }
 /* CSS media queries */
 @media (max-width: 767px) {
