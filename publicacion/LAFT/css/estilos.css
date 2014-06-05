@@ -232,11 +232,15 @@ figure.periodico-final img {
 #LAFT .sabiaque img {
     background-color: #c294d1;
 }
-#LAFT .lineaTiempo div a.tipo1 {
+#LAFT .lineaTiempo div a.tipo1,
+#LAFT .arbol a.tipo1,
+.mapamundi a.tipo1  {
     background-color: #74b233;
     border: 2px solid #bad89a;
 }
-#LAFT .lineaTiempo div a.tipo2 {
+#LAFT .lineaTiempo div a.tipo2,
+#LAFT .arbol a.tipo2,
+.mapamundi a.tipo2  {
     background-color: #3b8acd;
     border: 2px solid #1a6fb2;
 }
@@ -372,6 +376,48 @@ a.bibliografia:hover {
 }
 .lineaTiempo div a:nth-of-type(4){
     margin-left: 85%;
+}
+.arbol {
+    position: relative;
+}
+.arbol svg {
+    position: absolute !important;
+}
+.arbol a {
+    display: block;
+    text-align: center;
+    min-height: 3em;
+    padding: 1em;
+    border-radius: 0.5em;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.arbol a:hover {
+    text-decoration: none;
+}
+.mapamundi {
+    background-image: url(../images/LAFTMod1_img06.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    padding-top: 2em;
+    border-radius: 5px;
+}
+.mapamundi a {
+    display: block;
+    min-height: 3em;
+    padding: 1em;
+    border-radius: 0.5em;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 3em;
+    text-align: center;
+}
+.mapamundi a:hover {
+    text-decoration: none;
 }
 /* CSS media queries */
 @media (max-width: 767px) {
