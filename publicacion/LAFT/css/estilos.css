@@ -20,6 +20,9 @@ header h1 small {
     color: #FFF;
     display: block;
 }
+section>blockquote {
+    font-size: 12px;
+}
 .barraNav {
     height: 65px;
 }
@@ -147,6 +150,7 @@ figure.imgInline img {
 figure.imgInline figcaption {
     font-size: 12px;
     text-align: right;
+    margin-top: 4px;
 }
 figure.sensei figcaption {
     border: solid 2px #323a45;
@@ -234,13 +238,15 @@ figure.periodico-final img {
 }
 #LAFT .lineaTiempo div a.tipo1,
 #LAFT .arbol a.tipo1,
-.mapamundi a.tipo1  {
+#LAFT .mapamundi a.tipo1,
+#LAFT .emparejamiento .tipo1 a  {
     background-color: #74b233;
     border: 2px solid #bad89a;
 }
 #LAFT .lineaTiempo div a.tipo2,
 #LAFT .arbol a.tipo2,
-.mapamundi a.tipo2  {
+#LAFT .mapamundi a.tipo2,
+#LAFT .emparejamiento .tipo2 a {
     background-color: #3b8acd;
     border: 2px solid #1a6fb2;
 }
@@ -253,6 +259,9 @@ figure.periodico-final img {
 }
 #LAFT .lineaTiempo h2:after {
     background-image: url(../images/LAFT_LineaTiempo.png);
+}
+#LAFT blockquote {
+    border-left: 5px solid #9c53b4;
 }
 #presaberes .radio.has-success {
     border-color: #3c763d;
@@ -320,6 +329,9 @@ a.bibliografia:hover {
     position: relative;
     height: 75px;
 }
+.lineaTiempo.grande div {
+    height: 95px;
+}
 .lineaTiempo div:after {
     content: "";
     display: block;
@@ -362,6 +374,12 @@ a.bibliografia:hover {
     position: absolute;
     z-index: 10;
 }
+.lineaTiempo.grande div a {
+    width: 70px;
+    height: 70px;
+    top: -10px;
+    font-size: 12px;
+}
 .lineaTiempo div a:hover {
     text-decoration: none;
 }
@@ -376,6 +394,18 @@ a.bibliografia:hover {
 }
 .lineaTiempo div a:nth-of-type(4){
     margin-left: 85%;
+}
+.lineaTiempo.grande div a:nth-of-type(1){
+    margin-left: 8%;
+}
+.lineaTiempo.grande div a:nth-of-type(2){
+    margin-left: 31%;
+}
+.lineaTiempo.grande div a:nth-of-type(3){
+    margin-left: 54%;
+}
+.lineaTiempo.grande div a:nth-of-type(4){
+    margin-left: 77%;
 }
 .arbol {
     position: relative;
@@ -416,8 +446,47 @@ a.bibliografia:hover {
     margin-bottom: 3em;
     text-align: center;
 }
-.mapamundi a:hover {
+.mapamundi a:hover,
+.emparejamiento a:hover {
     text-decoration: none;
+}
+.emparejamiento a {
+    display: block;
+    min-height: 3em;
+    padding: 1em;
+    border-radius: 0.5em;
+    color: #fff;
+    margin-bottom: 3em;
+    text-align: center;
+    display: block;
+    min-height: 3em;
+    padding: 1em;
+    border-radius: 0.5em;
+    color: #fff;
+    margin-bottom: 3em;
+    text-align: center;
+}
+.emparejamiento .arrastrable a {
+    z-index: 9999 !important;
+}
+.emparejamiento .destino a {
+    height: 6em;
+    padding-top: 2em; 
+}
+.posicionArrastrables {
+    top: 0px !important;
+    left: 0px !important;
+}
+.emparejamiento .destino a {
+    position: relative;
+}
+.emparejamiento .destino a .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.emparejamiento .arrastrable p {
+    display: none;
 }
 /* CSS media queries */
 @media (max-width: 767px) {

@@ -24,7 +24,12 @@ if (!Array.prototype.indexOf) {
     };
   }
 /* Ahora si, el código de verdad */
-var lienzoArbol;
+var lienzoArbol,arrastrables;
+var arrastreCorrecto = false;
+var arrastreErrores = 0;
+var arrastreCont = 0;
+var numArrastrables = 0;
+var arrastreOrden = new Array();
 $(function(){
     ajustarMenu();
     window.onresize = ajustarMenu;
@@ -68,7 +73,79 @@ $(function(){
         'trigger': 'click',
         'html': true
     });
+    if ($('.emparejamiento').html()) {
+        emparejamiento();
+    }
 });
+function emparejamiento() {
+    arrastrables = new Array();
+    numArrastrables = $('.emparejamiento .arrastrable a').length;
+    $('.emparejamiento .arrastrable a').each(function(){
+        arrastrables.push(this);
+    }).hide().draggable().click(function(evento) {
+        evento.preventDefault();
+    });
+    $('.emparejamiento .destino a').droppable({
+       drop: function(event,ui) {
+               arrastreCorrecto = true;
+               verificarDrop(event, ui);
+           },
+       out: function(event,ui) {
+               if (!arrastreCorrecto){
+                    dropFuera(event, ui);
+               }
+           }
+    }).append('<span class="badge">0</span>').click(function(evento) {
+        evento.preventDefault();
+    }).popover({
+        'container': 'body',
+        'placement': 'auto top',
+        'trigger': 'click',
+        'html': true
+    });
+    arrastreOrden = ordenAleatorio(numArrastrables);
+    arrastrarEmparejamiento();
+}
+function arrastrarEmparejamiento() {
+    $('.emparejamiento .alert.alert-success span').html(arrastreCont);
+    $('.emparejamiento .alert.alert-warning span').html(arrastreErrores);
+    if (arrastreCont < numArrastrables) {
+        $(arrastrables[arrastreOrden[arrastreCont]]).show('slide', {direction: "up", easing:"easeInQuint"}, 1000);
+    } else {
+        $('.emparejamiento .arrastrable p span:first-of-type').html(arrastreCont);
+        $('.emparejamiento .arrastrable p span:last-of-type').html(arrastreErrores);
+        $('.emparejamiento .arrastrable p').show('slide', {direction: "up", easing:"easeInQuint"}, 1000);
+    }
+}
+function verificarDrop(evento, obj) {
+    if($(evento.target).data('goal') == $(obj.draggable).data('destination')) {
+        $(evento.target).children('.badge').html(Number($(evento.target).children('.badge').html())+1);
+        if ($(evento.target).attr('data-content') == "") {var salto="";} else {var salto = "<br>";}
+        var contenido = $(evento.target).attr('data-content')+salto+'<strong>'+$(evento.target).children('.badge').html()+'.</strong> '+$(obj.draggable).html();
+        $(evento.target).attr('data-content',contenido);
+        $(obj.draggable).hide('scale', {percent: 0, easing:"easeInQuint"}, 500, finReducir);
+    } else {
+        volverPosOriginal(obj);
+    }
+    arrastreCorrecto = false;
+    function finReducir() {
+        arrastreCont++;
+        arrastrarEmparejamiento();
+    }
+}
+function dropFuera(evento, obj) {
+    volverPosOriginal(obj);
+}
+function volverPosOriginal(obj) {
+    $(obj.draggable).addClass('posicionArrastrables', 500,'easeOutBounce', finPosOriginal);
+    function finPosOriginal() {
+        $(obj.draggable).removeClass('posicionArrastrables');
+        $('.emparejamiento .alert.alert-success span').html(arrastreCont);
+        $('.emparejamiento .alert.alert-warning span').html(arrastreErrores);
+    }
+    arrastreCorrecto = false;
+    arrastreErrores++;
+}
 function alistaArbol() {
     if (lienzoArbol) {
         lienzoArbol.remove();
