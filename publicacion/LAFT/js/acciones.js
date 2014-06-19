@@ -39,7 +39,9 @@ $(function(){
     alistaPresaberes();
     $('a.bibliografia').popover({
         'container': 'body',
-        'placement': 'auto top'
+        'placement': 'auto top',
+        'html': true,
+        'title': 'Cita bibliográfica'
     }).click(function(evento) {
         evento.preventDefault();
     }).prepend('<i class="fa fa-book"></i>&nbsp;');
@@ -65,13 +67,15 @@ $(function(){
     if ($('.arbol').length > 0) {
         alistaArbol();
     }
-    $('.mapamundi a').click(function(evento) {
+    $('.graficoSimple a').click(function(evento) {
         evento.preventDefault();
     }).popover({
         'container': 'body',
         'placement': 'auto top',
         'trigger': 'click',
         'html': true
+    }).on('shown.bs.popover', function () {
+        $('a.bocadillo').tooltip({'container': 'body'}).click(function(evento) {evento.preventDefault();});
     });
     if ($('.emparejamiento').html()) {
         emparejamiento();

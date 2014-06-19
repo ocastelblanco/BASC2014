@@ -20,14 +20,14 @@
 }
 #LAFT .lineaTiempo div a.tipo1,
 #LAFT .arbol a.tipo1,
-#LAFT .mapamundi a.tipo1,
+#LAFT .graficoSimple a.tipo1,
 #LAFT .emparejamiento .tipo1 a  {
     background-color: #74b233;
     border: 2px solid #bad89a;
 }
 #LAFT .lineaTiempo div a.tipo2,
 #LAFT .arbol a.tipo2,
-#LAFT .mapamundi a.tipo2,
+#LAFT .graficoSimple a.tipo2,
 #LAFT .emparejamiento .tipo2 a {
     background-color: #3b8acd;
     border: 2px solid #1a6fb2;
@@ -223,6 +223,14 @@ figure.sensei figcaption:before {
     text-indent: 99999px;
     overflow: hidden;
 }
+figure.sensei.derecha figcaption:before {
+    content: ">";
+    left: inherit;
+    right: 0;
+    top: 30px;
+    border-width: 10px 0 10px 17.3px;
+    border-color: transparent transparent transparent #323a45;
+}
 figure.periodico-inicio,
 figure.periodico-final {
     background-color: #EEEEE0;
@@ -242,6 +250,7 @@ figure.periodico-inicio h2 {
     margin-top: 0;
     margin-bottom: 25px;
 }
+figure.periodico-inicio figcaption,
 figure.periodico-final figcaption {
     font-style: italic;    
 }
@@ -434,15 +443,17 @@ a.bibliografia:hover {
 .arbol a:hover {
     text-decoration: none;
 }
-.mapamundi {
+.graficoSimple.mapamundi {
     background-image: url(../images/LAFTMod1_img06.png);
+}
+.graficoSimple {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
     padding-top: 2em;
     border-radius: 5px;
 }
-.mapamundi a {
+.graficoSimple a {
     display: block;
     min-height: 3em;
     padding: 1em;
@@ -452,7 +463,7 @@ a.bibliografia:hover {
     margin-bottom: 3em;
     text-align: center;
 }
-.mapamundi a:hover,
+.graficoSimple a:hover,
 .emparejamiento a:hover {
     text-decoration: none;
 }
