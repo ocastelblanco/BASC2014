@@ -505,6 +505,31 @@ a.bibliografia:hover {
 .emparejamiento .arrastrable p {
     display: none;
 }
+.img-centrada,
+.img-modal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrap-img-modal {
+    background-color: #eee;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.wrap-img-modal p {
+    font-size: 12px;
+    text-align: right;
+    padding-top: 10px;
+}
+#modal .img-centrada {
+    width: 90%;
+    height: auto;
+}
 /* CSS media queries */
 @media (max-width: 767px) {
     header h1 {

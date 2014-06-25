@@ -80,6 +80,13 @@ $(function(){
     if ($('.emparejamiento').html()) {
         emparejamiento();
     }
+    $('.img-modal').wrap('<div class="wrap-img-modal"></div>').click(function() {
+        $('#modal .modal-content').append('<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="etiquetaModal">'+$(this).attr('title')+'</h4></div><div class="modal-body"><img src="'+$(this).attr('src')+'" class="img-responsive img-centrada"></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button></div>');
+        $('#modal').modal();
+    }).after('<p>Haga clic sobre la imagen para ampliarla</p>');
+    $('#modal').on('hidden.bs.modal', function (e) {
+        $('#modal .modal-content').html('');
+    });
 });
 function emparejamiento() {
     arrastrables = new Array();
