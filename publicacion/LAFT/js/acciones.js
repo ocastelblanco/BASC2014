@@ -87,7 +87,30 @@ $(function(){
     $('#modal').on('hidden.bs.modal', function (e) {
         $('#modal .modal-content').html('');
     });
-});
+    $('.seleccionable select').change(function(){
+        var frase = $(this).parent();
+        var numResp = $(frase).children('select').length;
+        var puntaje = 0;
+        var todos = true;
+        $(frase).children('select').each(function(){
+            if($(this).children('option:selected').val() == "") {
+                todos = false;
+            }
+            puntaje += Number($(this).children('option:selected').val());
+        });
+        if(todos) {
+            if (puntaje == numResp) {
+                $(frase).addClass('has-success alert alert-success').attr('role','alert').append('<i class="fa fa-check fa-lg form-control-feedback"></i>');
+            } else {
+                $(frase).addClass('has-error alert alert-danger').attr('role','alert').append('<i class="fa fa-times fa-lg form-control-feedback"></i>');
+            }
+            $(frase).children('select').each(function(){
+                $(this).unbind();
+                $(this).replaceWith('<span class="respuesta">'+$(this).children('option:selected').html()+'</span>');
+            });
+        }
+    });
+}); // Fin de la function inicial
 function emparejamiento() {
     arrastrables = new Array();
     numArrastrables = $('.emparejamiento .arrastrable a').length;

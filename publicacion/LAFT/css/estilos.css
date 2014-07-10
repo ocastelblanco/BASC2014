@@ -278,13 +278,16 @@ figure.periodico-final img {
     padding: 6px 12px 6px 30px;
     color: #fff;
 }
-#presaberes .radio.has-success {
+#presaberes .radio.has-success,
+.seleccionable.has-success {
     border-color: #3c763d;
 }
-#presaberes .radio.has-error {
+#presaberes .radio.has-error,
+.seleccionable.has-error {
     border-color: #a94442;
 }
-#presaberes i.form-control-feedback {
+#presaberes i.form-control-feedback,
+.seleccionable i.form-control-feedback {
     float: right;
 }
 a.bibliografia {
@@ -529,6 +532,35 @@ a.bibliografia:hover {
 #modal .img-centrada {
     width: 90%;
     height: auto;
+}
+.tabla thead>tr>th {
+    text-transform: uppercase;
+    text-align: center;
+}
+.tabla tbody>tr>td {
+    vertical-align: middle;
+}
+.tabla tbody>tr>td.titulo {
+    font-weight: bold;
+    text-align: center;
+}
+.tabla tfoot>tr>td {
+    font-size: smaller;
+}
+.seleccionable {
+    margin-top: 30px;
+}
+.seleccionable select {
+    background-color: transparent;
+    border: transparent;
+    border-bottom: solid 1px #333;
+}
+.seleccionable.has-error,
+.seleccionable.has-success {
+    border: solid 1px;
+}
+.seleccionable span.respuesta {
+    text-decoration: underline;
 }
 /* CSS media queries */
 @media (max-width: 767px) {
