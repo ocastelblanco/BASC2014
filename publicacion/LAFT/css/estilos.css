@@ -36,7 +36,8 @@
     border-top: 2px solid #924ba9;    
 }
 #LAFT .lineaTiempo div:first-of-type:before,
-#LAFT .lineaTiempo div:last-of-type:before {
+#LAFT .lineaTiempo div:last-of-type:before,
+#LAFT .seleccionable {
     background-color: #924ba9;
 }
 #LAFT .lineaTiempo h2:after {
@@ -549,11 +550,15 @@ a.bibliografia:hover {
 }
 .seleccionable {
     margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #FFF;
 }
 .seleccionable select {
     background-color: transparent;
     border: transparent;
-    border-bottom: solid 1px #333;
+    border-bottom: solid 1px #FFF;
+    color: #000;
 }
 .seleccionable.has-error,
 .seleccionable.has-success {
@@ -561,6 +566,14 @@ a.bibliografia:hover {
 }
 .seleccionable span.respuesta {
     text-decoration: underline;
+}
+.alert-danger {
+    background-color: #f2dede !important;
+    color: #a94442 !important;
+}
+.alert-success {
+    background-color: #dff0d8 !important;
+    color: #3c763d !important;
 }
 /* CSS media queries */
 @media (max-width: 767px) {
