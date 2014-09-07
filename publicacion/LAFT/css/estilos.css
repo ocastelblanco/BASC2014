@@ -649,7 +649,8 @@ a.bibliografia:hover {
     text-align: center;
 }
 #riesgos th,
-#normaBASC th {
+#normaBASC th,
+#tablaComun th {
     text-align: center;
     vertical-align: middle;
 }
@@ -666,7 +667,8 @@ a.bibliografia:hover {
     width: 30%;
 }
 #riesgos td,
-#normaBASC td {
+#normaBASC td,
+#tablaComun td {
     padding: 10px;
     vertical-align: middle;
 }
@@ -677,12 +679,14 @@ a.bibliografia:hover {
     color: #55F;
 }
 #riesgos h4.panel-title>a:before,
-#normaBASC h4.panel-title>a:before {
+#normaBASC h4.panel-title>a:before,
+.tablaComun h4.panel-title>a:before {
     content: "\f0d7";
     font-family: FontAwesome;
 }
 #riesgos h4.panel-title>a.collapsed:before,
-#normaBASC h4.panel-title>a.collapsed:before {
+#normaBASC h4.panel-title>a.collapsed:before,
+.tablaComun h4.panel-title>a.collapsed:before {
     content: "\f0da";
     font-family: FontAwesome;
 }
@@ -691,6 +695,17 @@ a.bibliografia:hover {
 }
 #normaBASC th:nth-of-type(2) {
     width: 40%;
+}
+#tablaComun td.amarilla {
+    background-color: #FF0;
+}
+#tablaComun td.roja {
+    background-color: #F00;
+}
+#tablaComun td.verde {
+    background-color: #0F0;
+}#tablaComun tfoot {
+    font-size: 10px;
 }
 /* CSS media queries */
 @media (max-width: 767px) {
