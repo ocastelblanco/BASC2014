@@ -80,6 +80,14 @@ $(function(){
     if ($('.emparejamiento').html()) {
         emparejamiento();
     }
+    $('.esquemaCircular div.pasos div.paso a').click(function(evento) {
+        evento.preventDefault();
+    }).popover({
+        'container': 'body',
+        'placement': 'auto top',
+        'html': true,
+        'trigger': 'hover'
+    }).prepend('<i class="fa fa-chevron-circle-up"></i><br>');
     $('.img-modal').wrap('<div class="wrap-img-modal"></div>').click(function() {
         $('#modal .modal-content').append('<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="etiquetaModal">'+$(this).attr('title')+'</h4></div><div class="modal-body"><img src="'+$(this).attr('src')+'" class="img-responsive img-centrada"></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button></div>');
         $('#modal').modal();
@@ -109,6 +117,13 @@ $(function(){
                 $(this).replaceWith('<span class="respuesta">'+$(this).children('option:selected').html()+'</span>');
             });
         }
+    });
+    $('.abreOculto').click(function() {
+        $('table.tablaOcultoVisible .visible').show();
+        $('table.tablaOcultoVisible .oculto').hide();
+        var fila = $(this).parent().parent();
+        $(fila).children('td').children('.oculto').show('slow');
+        $(fila).children('td').children('.visible').hide();
     });
 }); // Fin de la function inicial
 function emparejamiento() {

@@ -21,14 +21,16 @@
 #LAFT .lineaTiempo div a.tipo1,
 #LAFT .arbol a.tipo1,
 #LAFT .graficoSimple a.tipo1,
-#LAFT .emparejamiento .tipo1 a  {
+#LAFT .emparejamiento .tipo1 a,
+#LAFT .esquemaCircular div.pasos div.paso a.tipo1 {
     background-color: #74b233;
     border: 2px solid #bad89a;
 }
 #LAFT .lineaTiempo div a.tipo2,
 #LAFT .arbol a.tipo2,
 #LAFT .graficoSimple a.tipo2,
-#LAFT .emparejamiento .tipo2 a {
+#LAFT .emparejamiento .tipo2 a,
+#LAFT .esquemaCircular div.pasos div.paso a.tipo2 {
     background-color: #3b8acd;
     border: 2px solid #1a6fb2;
 }
@@ -149,6 +151,11 @@ section>blockquote {
     color: #fff;
     margin: 0 0 10px;
 }
+#contenido section h2 {
+    font-size: 20px;
+    color: #fff;
+    margin: 0 0 10px;
+}
 #contenido section figure {
     margin-bottom: 10px;
 }
@@ -256,7 +263,7 @@ figure.periodico-final figcaption {
     font-style: italic;    
 }
 figure.periodico-inicio:before {
-    content: "El Informador";
+    content: "NotiBASC";
     text-transform: uppercase;
     font-family: 'Vollkorn', serif;
     font-size: 42px;
@@ -265,7 +272,7 @@ figure.periodico-inicio:before {
     margin-right: auto;
     margin-top: 10px;
     display: block;
-    width: 75%;
+    width: 50%;
     text-align: center;
     color: #000;
 }
@@ -278,6 +285,7 @@ figure.periodico-final img {
 #presaberes .radio {
     padding: 6px 12px 6px 30px;
     color: #fff;
+    height: inherit;
 }
 #presaberes .radio.has-success,
 .seleccionable.has-success {
@@ -509,6 +517,57 @@ a.bibliografia:hover {
 .emparejamiento .arrastrable p {
     display: none;
 }
+.esquemaCircular.seis {
+    width: 100%;
+    height: 520px;
+    position: relative;
+}
+.esquemaCircular div.pasos {
+    width: 100%;
+    height: 100%;
+}
+.esquemaCircular div.pasos div.paso {
+    position: absolute;
+}
+.esquemaCircular.seis div.pasos div.paso:nth-of-type(1) {
+    left: 33.333%;
+}
+.esquemaCircular.seis div.pasos div.paso:nth-of-type(2) {
+    left: 66.666%;
+    top: 15%;
+}
+.esquemaCircular.seis div.pasos div.paso:nth-of-type(3) {
+    left: 66.666%;
+    top: 40%;
+}
+.esquemaCircular.seis div.pasos div.paso:nth-of-type(4) {
+    left: 33.333%;
+    top: 60%;
+}
+.esquemaCircular.seis div.pasos div.paso:nth-of-type(5) {
+    top: 40%;
+}
+.esquemaCircular.seis div.pasos div.paso:nth-of-type(6) {
+    top: 15%;
+}
+.esquemaCircular div.pasos div.paso a {
+    display: block;
+    width: 120px;
+    height: 120px;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    line-height: 1.25em;
+    padding: 0.75em;
+}
+.esquemaCircular div.fondo {
+    position: absolute;
+    width: 120px;
+    height: auto;
+    left: 33.333%;
+    top: 25%;
+}
 .img-centrada,
 .img-modal {
     display: block;
@@ -574,6 +633,64 @@ a.bibliografia:hover {
 .alert-success {
     background-color: #dff0d8 !important;
     color: #3c763d !important;
+}
+.tablaOcultoVisible th {
+    text-align: center;
+}
+.abreOculto {
+    text-align: left;
+}
+.oculto {
+    display: none;
+}
+.visible {
+    color: #FFF;
+    color: rgba(255,255,255,0.25);
+    text-align: center;
+}
+#riesgos th,
+#normaBASC th {
+    text-align: center;
+    vertical-align: middle;
+}
+#riesgos th:nth-of-type(1) {
+    width: 10%;
+}
+#riesgos th:nth-of-type(2) {
+    width: 40%;
+}
+#riesgos th:nth-of-type(3) {
+    width: 20%;
+}
+#riesgos th:nth-of-type(4) {
+    width: 30%;
+}
+#riesgos td,
+#normaBASC td {
+    padding: 10px;
+    vertical-align: middle;
+}
+#riesgos td i.fa-exclamation-triangle {
+    color: #F55;
+}
+#riesgos td i.fa-lightbulb-o {
+    color: #55F;
+}
+#riesgos h4.panel-title>a:before,
+#normaBASC h4.panel-title>a:before {
+    content: "\f0d7";
+    font-family: FontAwesome;
+}
+#riesgos h4.panel-title>a.collapsed:before,
+#normaBASC h4.panel-title>a.collapsed:before {
+    content: "\f0da";
+    font-family: FontAwesome;
+}
+#normaBASC th:nth-of-type(1) {
+    width: 60%;
+}
+#normaBASC th:nth-of-type(2) {
+    width: 40%;
 }
 /* CSS media queries */
 @media (max-width: 767px) {
