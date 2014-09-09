@@ -487,13 +487,6 @@ a.bibliografia:hover {
     color: #fff;
     margin-bottom: 3em;
     text-align: center;
-    display: block;
-    min-height: 3em;
-    padding: 1em;
-    border-radius: 0.5em;
-    color: #fff;
-    margin-bottom: 3em;
-    text-align: center;
 }
 .emparejamiento .arrastrable a {
     z-index: 9999 !important;
@@ -501,6 +494,9 @@ a.bibliografia:hover {
 .emparejamiento .destino a {
     height: 6em;
     padding-top: 2em; 
+}
+.emparejamiento .destino.grande a {
+    height: 8em;
 }
 .posicionArrastrables {
     top: 0px !important;
@@ -561,7 +557,7 @@ a.bibliografia:hover {
     line-height: 1.25em;
     padding: 0.75em;
 }
-.esquemaCircular div.fondo {
+.esquemaCircular .fondo {
     position: absolute;
     width: 120px;
     height: auto;
@@ -600,7 +596,7 @@ a.bibliografia:hover {
 .tabla tbody>tr>td {
     vertical-align: middle;
 }
-.tabla tbody>tr>td.titulo {
+.tabla tbody>tr>.titulo {
     font-weight: bold;
     text-align: center;
 }
