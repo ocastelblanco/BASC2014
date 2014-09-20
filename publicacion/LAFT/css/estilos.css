@@ -22,6 +22,7 @@
 #LAFT .arbol a.tipo1,
 #LAFT .graficoSimple a.tipo1,
 #LAFT .emparejamiento .tipo1 a,
+#LAFT .listadoHorizontal a.tipo1,
 #LAFT .esquemaCircular div.pasos div.paso a.tipo1 {
     background-color: #74b233;
     border: 2px solid #bad89a;
@@ -30,6 +31,7 @@
 #LAFT .arbol a.tipo2,
 #LAFT .graficoSimple a.tipo2,
 #LAFT .emparejamiento .tipo2 a,
+#LAFT .listadoHorizontal a.tipo2,
 #LAFT .esquemaCircular div.pasos div.paso a.tipo2 {
     background-color: #3b8acd;
     border: 2px solid #1a6fb2;
@@ -257,6 +259,7 @@ figure.periodico-inicio h2 {
     font-size: 20px;
     margin-top: 0;
     margin-bottom: 25px;
+    color: #000 !important;
 }
 figure.periodico-inicio figcaption,
 figure.periodico-final figcaption {
@@ -564,6 +567,18 @@ a.bibliografia:hover {
     left: 33.333%;
     top: 25%;
 }
+.listadoHorizontal a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    line-height: 1.25em;
+    padding: 0.75em;
+}
+.listadoHorizontal.circulos a {
+    border-radius: 50%;
+}
 .img-centrada,
 .img-modal {
     display: block;
@@ -644,8 +659,40 @@ a.bibliografia:hover {
     color: rgba(255,255,255,0.25);
     text-align: center;
 }
+.tablaComun.col-50-50 th {
+    width: 50%;
+}
+.tablaComun.col-33-33-33 th {
+    width: 33.333%;
+}
+.tablaComun.col-40-30-30 th:nth-of-type(1) {
+    width: 40%;
+}
+.tablaComun.col-40-30-30 th:nth-of-type(2),
+.tablaComun.col-40-30-30 th:nth-of-type(3) {
+    width: 30%;
+}
+.tablaComun.col-40-40-20 th:nth-of-type(1),
+.tablaComun.col-40-40-20 th:nth-of-type(2) {
+    width: 40%;
+}
+.tablaComun.col-40-40-20 th:nth-of-type(3) {
+    width: 20%;
+}
+.tablaComun .panelFuente {
+    font-size: 0.75em;
+    padding: 10px;
+}
+#normaBASC th:nth-of-type(1) {
+    width: 60%;
+}
+#normaBASC th:nth-of-type(2) {
+    width: 40%;
+}
 #riesgos th,
 #normaBASC th,
+.tablaComun th,
+.tablaComun table tr th,
 #tablaComun th {
     text-align: center;
     vertical-align: middle;
@@ -664,14 +711,17 @@ a.bibliografia:hover {
 }
 #riesgos td,
 #normaBASC td,
-#tablaComun td {
+#tablaComun td,
+.tablaComun table tr td {
     padding: 10px;
     vertical-align: middle;
 }
-#riesgos td i.fa-exclamation-triangle {
+#riesgos td i.fa-exclamation-triangle,
+.tablaComun td i.fa-exclamation-triangle {
     color: #F55;
 }
-#riesgos td i.fa-lightbulb-o {
+#riesgos td i.fa-lightbulb-o,
+.tablaComun td i.fa-lightbulb-o {
     color: #55F;
 }
 #riesgos h4.panel-title>a:before,
@@ -700,7 +750,8 @@ a.bibliografia:hover {
 }
 #tablaComun td.verde {
     background-color: #0F0;
-}#tablaComun tfoot {
+}
+#tablaComun tfoot {
     font-size: 10px;
 }
 /* CSS media queries */

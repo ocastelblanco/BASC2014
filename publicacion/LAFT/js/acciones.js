@@ -29,7 +29,7 @@ var arrastreCorrecto = false;
 var arrastreErrores = 0;
 var arrastreCont = 0;
 var numArrastrables = 0;
-var arrastreOrden = new Array();
+var arrastreOrden = [];
 $(function(){
     ajustarMenu();
     window.onresize = ajustarMenu;
@@ -88,6 +88,14 @@ $(function(){
         'html': true,
         'trigger': 'hover'
     }).prepend('<i class="fa fa-chevron-circle-up"></i><br>');
+    $('.listadoHorizontal a').click(function(evento) {
+        evento.preventDefault();
+    }).popover({
+        'container': 'body',
+        'placement': 'auto top',
+        'html': true,
+        'trigger': 'hover'
+    });
     $('.img-modal').wrap('<div class="wrap-img-modal"></div>').click(function() {
         $('#modal .modal-content').append('<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="etiquetaModal">'+$(this).attr('title')+'</h4></div><div class="modal-body"><img src="'+$(this).attr('src')+'" class="img-responsive img-centrada"></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button></div>');
         $('#modal').modal();
