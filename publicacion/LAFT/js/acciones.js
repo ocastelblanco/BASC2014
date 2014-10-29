@@ -133,9 +133,23 @@ $(function(){
         $(fila).children('td').children('.oculto').show('slow');
         $(fila).children('td').children('.visible').hide();
     });
+    $('.abreYouTube').click(function(evento) {
+        evento.preventDefault();
+        var titulo = $(this).html();
+        var url = $(this).attr('title');
+        var alto = Math.floor($(window).innerHeight()*0.8);
+        $('#modal .modal-content')
+            .html('<iframe width="100%" height="'+alto+'" src="'+url+'" frameborder="0" allowfullscreen></iframe>')
+            .prepend('<div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button><h4 class="modal-title">'+titulo+'</h4></div>');
+        $('#modal button.close').click(function(){
+            $('#modal .modal-header').remove();
+            $('#modal .modal-content').html('');
+            $('#modal').modal('hide');
+        });
+    });
 }); // Fin de la function inicial
 function emparejamiento() {
-    arrastrables = new Array();
+    arrastrables = [];
     numArrastrables = $('.emparejamiento .arrastrable a').length;
     $('.emparejamiento .arrastrable a').each(function(){
         arrastrables.push(this);
