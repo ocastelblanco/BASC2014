@@ -1,0 +1,541 @@
+﻿<?xml version="1.0"?><quiz><question type="category"><category><text>Evaluación Módulo 3</text></category></question><question type="multichoice">
+	<name>
+		<text>Una tipología de LA/FT es:</text>
+	</name>
+	<questiontext format="html">
+		<text>Una tipología de LA/FT es: </text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Un referente histórico de comportamientos identificados por expertos frente al LA/FT.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Cualquier comportamiento o actividad que pueda ser un indicio de operaciones de LA/FT.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Un agente generador del riesgo de LA/FT.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Una señal de alerta sirve para:</text>
+	</name>
+	<questiontext format="html">
+		<text>Una señal de alerta sirve para:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Identificar una operación inusual o sospechosa.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Conocer mejor su mercado y el de sus clientes.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Denunciar legalmente una operación de LA/FT.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Aquellas situaciones inusuales que pueden presentarse tanto en relación con operaciones de LA/FT como para cualquier otra situación son:</text>
+	</name>
+	<questiontext format="html">
+		<text>Aquellas situaciones inusuales que pueden presentarse tanto en relación con operaciones de LA/FT como para cualquier otra situación son:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Señales de alerta comunes.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Señales de alerta probabilísticas.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Señales de alerta concluyentes.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Es un ejemplo de señal de alerta en cuanto a comportamientos de los empleados:</text>
+	</name>
+	<questiontext format="html">
+		<text>Es un ejemplo de señal de alerta en cuanto a comportamientos de los empleados:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Tienen un estilo de vida que no corresponde al valor de su salario.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Demuestran escaso conocimiento acerca de su negocio.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Actúan a nombre de terceros intentando ocultar la identidad del usuario real.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Es un ejemplo de señal de alerta en cuanto a personas jurídicas:</text>
+	</name>
+	<questiontext format="html">
+		<text>Es un ejemplo de señal de alerta en cuanto a personas jurídicas:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Realizan grandes inversiones a pesar de haber sido constituidas recientemente.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Evaden los controles internos o de aprobación establecidos.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Fraccionan transacciones para evitar requerimientos de documentación.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Es un ejemplo de señal de alerta en cuanto a comportamientos de personas naturales:</text>
+	</name>
+	<questiontext format="html">
+		<text>Es un ejemplo de señal de alerta en cuanto a comportamientos de personas naturales:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Definen su actividad económica como “independiente” y manejan grandes cantidades de dinero.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Comparten gerentes, administradores o representantes legales.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Son renuentes a disfrutar vacaciones, o promociones que impliquen el cambio de sus actividades.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>El Reporte de Operaciones Sospechosas (ROS) se aplica inmediatamente cuando se presenta una situación inusual que:</text>
+	</name>
+	<questiontext format="html">
+		<text>El Reporte de Operaciones Sospechosas (ROS) se aplica inmediatamente cuando se presenta una situación inusual que:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Es suficiente en sí misma para determinar su relación con una operación sospechosa de LA/FT.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Por su cuantía se sale de lo normal establecido para el sector, el mercado o los usuarios.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Es común entre los sectores, las empresas o los clientes.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Son características de los Reportes de Operaciones Sospechosas (ROS):</text>
+	</name>
+	<questiontext format="html">
+		<text>Son características de los Reportes de Operaciones Sospechosas (ROS):</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Son reservados, no constituyen denuncias penales, y no se requiere certeza de su relación con los delitos de LA/FT para realizarlos.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Son reservados y se requiere certeza de su relación con los delitos de LA/FT para realizarlos.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>No constituyen denuncias penales, son reservados y se requiere certeza de su relación con los delitos de LA/FT para realizarlos.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Es una práctica recomendada para evitar ser usado en operaciones de LA/FT:</text>
+	</name>
+	<questiontext format="html">
+		<text>Es una práctica recomendada para evitar ser usado en operaciones de LA/FT:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Documentar y soportar todas las transacciones realizadas.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Prestar su nombre y productos financieros.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Aceptar capital de inversionistas extranjeros y poco conocidos.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>La Gestión del riesgo de LA/FT se puede definir como:</text>
+	</name>
+	<questiontext format="html">
+		<text>La Gestión del riesgo de LA/FT se puede definir como:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>La adopción de políticas y procedimientos para prevenir y controlar el riesgo de LA/FT.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>La aplicación de medidas para evitar las multas o consecuencias del incumplimiento de normas u obligaciones contractuales.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Los procedimientos para reportar operaciones sospechosas de LA/FT.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Son factores de riesgo de LA/FT , a considerar dentro del Sistema de Gestión del Riesgo:</text>
+	</name>
+	<questiontext format="html">
+		<text>Son factores de riesgo de LA/FT , a considerar dentro del Sistema de Gestión del Riesgo:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Productos y servicios, clientes, canales de distribución y áreas geográficas.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Recurso humano, procesos, tecnología e infraestructura.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Productos y servicios, clientes e instalaciones.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Dentro de las etapas para un Sistema de Gestión del Riesgo de LA/FT, el estudio de las señales de alerta y las tipologías de LA/FT es útil en:</text>
+	</name>
+	<questiontext format="html">
+		<text>Dentro de las etapas para un Sistema de Gestión del Riesgo de LA/FT, el estudio de las señales de alerta y las tipologías de LA/FT es útil en:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>La Identificación de riesgos.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>El diagnóstico.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>El monitoreo.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Son medidas de prevención para evitar ser usado en operaciones de LA/FT:</text>
+	</name>
+	<questiontext format="html">
+		<text>Son medidas de prevención para evitar ser usado en operaciones de LA/FT:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Aplicar mecanismos de conocimiento del cliente, del mercado y el de sus clientes.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Evitar el uso de los servicios y productos del sistema financiero.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Hacer negocios sin indagar por el origen de los bienes o el dinero en juego.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Dentro del Sistema de Gestión del Riesgo de LA/FT los controles se definen como:</text>
+	</name>
+	<questiontext format="html">
+		<text>Dentro del Sistema de Gestión del Riesgo de LA/FT los controles se definen como:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Las políticas, actividades y procedimientos que se aplican para evitar los riesgos de LA/FT.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Los procedimientos para informar a la UIAF, la ocurrencia de cualquier operación sospechosa.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Las herramientas que ayudan a identificar posibles tipologías de LA/FT.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Es una práctica de buen gobierno corporativo que puede contribuir a evitar los riesgos de LA/FT:</text>
+	</name>
+	<questiontext format="html">
+		<text>Es una práctica de buen gobierno corporativo que puede contribuir a evitar los riesgos de LA/FT:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Establecer códigos de conducta ante situaciones de riesgo y procedimientos claros de los empleados ante dichos eventos.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Establecer relaciones con socios provenientes de países no cooperantes.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Realizar operaciones con excepciones, evadiendo los controles internos o de aprobación establecidos.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+</quiz>

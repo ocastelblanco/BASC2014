@@ -1,0 +1,361 @@
+﻿<?xml version="1.0"?><quiz><question type="category"><category><text>Evaluación Módulo 2</text></category></question><question type="multichoice">
+	<name>
+		<text>Utilizar bienes o dinero para realizar actividades en contra de la sociedad es:</text>
+	</name>
+	<questiontext format="html">
+		<text>Utilizar bienes o dinero para realizar actividades en contra de la sociedad es: </text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Financiación del terrorismo.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Blanqueo de capitales.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Corrupción.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>La realización de una serie de complejas transacciones bancarias para ocultar el rastro del dinero ilícito, es una actividad del Lavado de activos en la etapa de:</text>
+	</name>
+	<questiontext format="html">
+		<text>La realización de una serie de complejas transacciones bancarias para ocultar el rastro del dinero ilícito, es una actividad del Lavado de activos en la etapa de:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Estratificación.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Colocación.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Integración.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Algunos métodos para realizar operaciones de lavado de activos a través del sistema financiero son:</text>
+	</name>
+	<questiontext format="html">
+		<text>Algunos métodos para realizar operaciones de lavado de activos a través del sistema financiero son: </text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Pitufeo y contrabando.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Compra de alimentos o medicinas para grupos al margen de la ley.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Trata de personas.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>La etapa de Integración en el LA se puede definir como:</text>
+	</name>
+	<questiontext format="html">
+		<text>La etapa de Integración en el LA se puede definir como:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Reinserción de los activos lavados en la economía, de manera que perezcan  legítimos.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Depósito del dinero  ilegal en cuentas bancarias nacionales o extranjeras.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Movilización de los activos en el sistema económico  a través de múltiples transacciones para ocultar su origen.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>La etapa de Colocación se puede definir como:</text>
+	</name>
+	<questiontext format="html">
+		<text>La etapa de Colocación se puede definir como:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Depósito del dinero  ilegal en cuentas bancarias nacionales o extranjeras.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Reinserción de los activos lavados en la economía, de manera que perezcan  legítimos.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Movilización de los activos en el sistema económico  a través de múltiples transacciones para ocultar su origen.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>La etapa de Estratificación se puede definir como:</text>
+	</name>
+	<questiontext format="html">
+		<text>La etapa de Estratificación se puede definir como:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Movilización de los activos en el sistema económico  a través de múltiples transacciones para ocultar su origen.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Reinserción de los activos lavados en la economía, de manera que perezcan  legítimos.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Depósito del dinero  ilegal en cuentas bancarias nacionales o extranjeras.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>La posibilidad de que la empresa sea incluida en investigaciones judiciales o sea juzgada por LA/FT  representa un:</text>
+	</name>
+	<questiontext format="html">
+		<text>La posibilidad de que la empresa sea incluida en investigaciones judiciales o sea juzgada por LA/FT  representa un: </text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Riesgo legal.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Riesgo de contagio.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Riesgo operativo.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>La capacidad de que el nombre y la imagen corporativa de la empresa sean perjudicados corresponde con el:</text>
+	</name>
+	<questiontext format="html">
+		<text>La capacidad de que el nombre y la imagen corporativa de la empresa sean perjudicados corresponde con el:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Riesgo reputacional.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Riesgo de contagio.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Riesgo legal.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>La posibilidad de pérdidas económicas en la empresa a causa de fallas humanas, técnicas o procedimentales representa un riesgo de tipo:</text>
+	</name>
+	<questiontext format="html">
+		<text>La posibilidad de pérdidas económicas en la empresa a causa de fallas humanas, técnicas o procedimentales representa un riesgo de tipo:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Operativo.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Reputacional.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Legal.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Listado de personas y empresas vinculadas con el narcotráfico e impedidas para realizar transacciones financieras o tener negocios comerciales con los Estados Unidos es:</text>
+	</name>
+	<questiontext format="html">
+		<text>Listado de personas y empresas vinculadas con el narcotráfico e impedidas para realizar transacciones financieras o tener negocios comerciales con los Estados Unidos es:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Lista OFAC o Lista Clinton.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Lista GAFI.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Lista OCDE.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+</quiz>

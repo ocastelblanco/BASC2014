@@ -1,0 +1,361 @@
+﻿<?xml version="1.0"?><quiz><question type="category"><category><text>Evaluación Módulo 1</text></category></question><question type="multichoice">
+	<name>
+		<text>El término “lavado” se empieza a emplear en  Estados unidos debido a que:</text>
+	</name>
+	<questiontext format="html">
+		<text>El término “lavado” se empieza a emplear en  Estados unidos debido a que:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Las mafias solían usar redes de lavanderías para ocultar el origen ilegal del dinero.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Los piratas y bucaneros lavaban el oro robado, comprando bebida e implementos de combate.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Los prestamistas empleaban la usura y evitaban ser castigados por las leyes.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Intentar dar carácter legal a los fondos producto de operaciones ilícitas, para facilitar su ingreso al flujo monetario de una economía es:</text>
+	</name>
+	<questiontext format="html">
+		<text>Intentar dar carácter legal a los fondos producto de operaciones ilícitas, para facilitar su ingreso al flujo monetario de una economía es:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Lavado de activos.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Piratería.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Enriquecimiento ilícito.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>El objetivo de la financiación del terrorismo es:</text>
+	</name>
+	<questiontext format="html">
+		<text>El objetivo de la financiación del terrorismo es:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Buscar fondos que permitan la operación terrorista.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>El enriquecimiento ilícito.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Ocultar dinero ilegal producto de secuestros.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Son organismos internacionales creados para la lucha en contra del LA/FT:</text>
+	</name>
+	<questiontext format="html">
+		<text>Son organismos internacionales creados para la lucha en contra del LA/FT:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>GAFI y el Grupo Egmont.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>UIAF y la CCICLA.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>DAS, DIAN y Fiscalía.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Son organismos nacionales creados para la lucha en contra del LA/FT:</text>
+	</name>
+	<questiontext format="html">
+		<text>Son organismos nacionales creados para la lucha en contra del LA/FT:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>UIAF  y la CCICLA.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Grupo Egmont y la UNODC.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>GPML y UIAF.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Evitar la realización de cualquiera de las actividades previas a los delitos de LA/FT, mediante normas y mecanismos  de control; es el frente de lucha del Estado denominado:</text>
+	</name>
+	<questiontext format="html">
+		<text>Evitar la realización de cualquiera de las actividades previas a los delitos de LA/FT, mediante normas y mecanismos  de control; es el frente de lucha del Estado denominado:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Prevención.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Investigación.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Detección.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Promover comportamientos de rechazo al LA/FT,  es el frente de lucha del Estado denominado:</text>
+	</name>
+	<questiontext format="html">
+		<text>Promover comportamientos de rechazo al LA/FT,  es el frente de lucha del Estado denominado:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Cultura.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Juzgamiento.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Detección.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Administrar los bienes incautados por delitos de narcotráfico y conexos es una función de:</text>
+	</name>
+	<questiontext format="html">
+		<text>Administrar los bienes incautados por delitos de narcotráfico y conexos es una función de:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Sociedad de Activos Especiales.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>El Ministerio de Defensa Nacional.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>La Unidad Nacional para la extinción de dominio.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Prevenir y detectar operaciones posiblemente relacionadas con el lavado de activos es una función de:</text>
+	</name>
+	<questiontext format="html">
+		<text>Prevenir y detectar operaciones posiblemente relacionadas con el lavado de activos es una función de:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>La Unidad de información y análisis financiero (UIAF).</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>La Fiscalía general de la nación.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>La Comisión de coordinación inter-institucional contra el lavado de activos (CCICLA).</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Dictar recomendaciones para combatir el lavado de activos en el mundo es la función de:</text>
+	</name>
+	<questiontext format="html">
+		<text>Dictar recomendaciones para combatir el lavado de activos en el mundo es la función de:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>La GAFI.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Las UIF.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>La CCICLA.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+</quiz>
