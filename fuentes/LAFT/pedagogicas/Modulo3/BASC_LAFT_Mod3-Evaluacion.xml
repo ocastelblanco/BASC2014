@@ -538,4 +538,184 @@
 		</feedback>
 	</answer>
 </question>
+<question type="multichoice">
+	<name>
+		<text>¿Qué tipo de señal de alerta se genera por una situación que es suficiente en sí misma para determinar su relación con una operación sospechosa de LA/FT?</text>
+	</name>
+	<questiontext format="html">
+		<text>¿Qué tipo de señal de alerta se genera por una situación que es suficiente en sí misma para determinar su relación con una operación sospechosa de LA/FT?</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Señal de alerta concluyente.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Señal de alerta común.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Señal de alerta probabilística.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>¿Cuál de las siguientes frases, sobre tipologías y señales de alerta, es VERDADERA?</text>
+	</name>
+	<questiontext format="html">
+		<text>¿Cuál de las siguientes frases, sobre tipologías y señales de alerta, es VERDADERA?</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>En una tipología las señales de alerta son estáticas.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Solo puede presentarse una señal de alerta en cada tipología.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Las tipologías conducen a evidencia física.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>¿Cuál de las siguientes NO corresponde a una buena práctica empresarial para prevenir el LA/FT?</text>
+	</name>
+	<questiontext format="html">
+		<text>¿Cuál de las siguientes NO corresponde a una buena práctica empresarial para prevenir el LA/FT?</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Evite las herramientas tecnológicas, ya que presentan fallas y pueden ser vulneradas.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Aplique mecanismos de conocimiento del cliente.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Documente y monitoree todas las operaciones que realice, en especial aquellas de alto riesgo.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>¿Cuál de las siguientes frases NO corresponde a una de las etapas de un proceso de implementación de un Sistema de gestión del riesgo aplicado al LA/FT?</text>
+	</name>
+	<questiontext format="html">
+		<text>¿Cuál de las siguientes frases NO corresponde a una de las etapas de un proceso de implementación de un Sistema de gestión del riesgo aplicado al LA/FT? </text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Prevención.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Diagnóstico.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Divulgación y documentación.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>¿Cuál de las siguientes características corresponde a la etapa 2, Identificación de riesgos LA/FT, en un Sistema de gestión del riesgo?</text>
+	</name>
+	<questiontext format="html">
+		<text>¿Cuál de las siguientes características corresponde a la etapa 2, Identificación de riesgos LA/FT, en un Sistema de gestión del riesgo?</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Se debe elaborar un listado de posibles eventos de riesgo por cada factor de riesgo, identificando también sus posibles causas.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Se debe definir una estructura interna para la administración de los riesgos, definiendo objetivos, políticas y designando responsables de las actividades específicas de control.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Es útil emplear matrices de riesgos para cada factor, en las que se combinan para cada evento de riesgo, las probabilidades y el impacto.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
 </quiz>

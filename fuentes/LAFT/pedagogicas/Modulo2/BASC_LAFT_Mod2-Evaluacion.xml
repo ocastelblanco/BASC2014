@@ -358,4 +358,172 @@
 		</feedback>
 	</answer>
 </question>
+<question type="multichoice">
+	<name>
+		<text>¿Cuál de las siguientes NO es una característica del Lavado de Activos?</text>
+	</name>
+	<questiontext format="html">
+		<text>¿Cuál de las siguientes NO es una característica del Lavado de Activos?</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Es un delito simple, asociado directamente con la producción de drogas.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Aprovecha la función económica del sector financiero y sus avances tecnológicos.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>A los delincuentes no les importa perder dinero en las transacciones de lavado, este es un costo que hace parte de su negocio.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>El sector financiero es el único utilizado para de lavado de activos:</text>
+	</name>
+	<questiontext format="html">
+		<text>El sector financiero es el único utilizado para de lavado de activos:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Falso.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Verdadero.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>Los recursos para la Financiación del Terrorismo SIEMPRE serán activos ilícitos.</text>
+	</name>
+	<questiontext format="html">
+		<text>Los recursos para la Financiación del Terrorismo SIEMPRE serán activos ilícitos.</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Falso.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Verdadero.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>¿Cuál de las siguientes diferencias entre LA y FT corresponde UNICAMENTE a la Financiación del Terrorismo?</text>
+	</name>
+	<questiontext format="html">
+		<text>¿Cuál de las siguientes diferencias entre LA y FT corresponde UNICAMENTE a la Financiación del Terrorismo? </text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Generalmente se manejan montos pequeños en las transacciones.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>El objetivo de la organización criminal es legalizar sus ganancias.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>La operación de realiza en una compleja red de transacciones y en ocasiones a través de compañías ficticias.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>¿Cuál de las siguientes diferencias entre LA y FT corresponde UNICAMENTE al Lavado de Activos?</text>
+	</name>
+	<questiontext format="html">
+		<text>¿Cuál de las siguientes diferencias entre LA y FT corresponde UNICAMENTE al Lavado de Activos?</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>El objetivo de la organización criminal es legalizar sus ganancias.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Generalmente se manejan montos pequeños en las transacciones.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Su fin es el sostenimiento de la organización terrorista.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
 </quiz>

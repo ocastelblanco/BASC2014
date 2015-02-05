@@ -358,4 +358,184 @@
 		</feedback>
 	</answer>
 </question>
+<question type="multichoice">
+	<name>
+		<text>El lavado de dinero está relacionado ÚNICAMENTE a las siguientes actividades:</text>
+	</name>
+	<questiontext format="html">
+		<text>El lavado de dinero está relacionado ÚNICAMENTE a las siguientes actividades:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>A diversos delitos.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Al narcotráfico.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Al tráfico de drogas, de armas, de personas y de animales.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>¿A qué frente de la lucha del estado contra el LA/FT corresponde la aplicación de los procedimientos y sanciones correspondientes a través del sistema judicial?</text>
+	</name>
+	<questiontext format="html">
+		<text>¿A qué frente de la lucha del estado contra el LA/FT corresponde la aplicación de los procedimientos y sanciones correspondientes a través del sistema judicial?</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Juzgamiento.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Investigación.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Encarcelamiento.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>La obligación de reportar a la UIAF cualquier transacción superior a diez mil dólares (US$10.000) es un requerimiento de:</text>
+	</name>
+	<questiontext format="html">
+		<text>La obligación de reportar a la UIAF cualquier transacción superior a diez mil dólares (US$10.000) es un requerimiento de:</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>El Banco de la República.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>La UNODC.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>El GAFISUD.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>¿A qué frente de la lucha del estado contra el LA/FT corresponde la generación de comportamientos de rechazo de la gente al conocer los riesgos asociados a dichos delitos?</text>
+	</name>
+	<questiontext format="html">
+		<text>¿A qué frente de la lucha del estado contra el LA/FT corresponde la generación de comportamientos de rechazo de la gente al conocer los riesgos asociados a dichos delitos?</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Cultura.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Juzgamiento.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Prevención.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
+<question type="multichoice">
+	<name>
+		<text>¿A qué frente de la lucha del estado contra el LA/FT corresponde la realización de actividades para descubrir, localizar y comunicar la presencia de operaciones sospechosas?</text>
+	</name>
+	<questiontext format="html">
+		<text>¿A qué frente de la lucha del estado contra el LA/FT corresponde la realización de actividades para descubrir, localizar y comunicar la presencia de operaciones sospechosas?</text>
+	</questiontext>
+	<image></image>
+	<image_base64></image_base64>
+	<generalfeedback>
+		<text></text>
+	</generalfeedback>
+	<penalty>0.1</penalty>
+	<hidden>0</hidden>
+	<single>true</single>
+	<shuffleanswers>true</shuffleanswers>
+	<answernumbering>none</answernumbering>
+	<answer fraction="100">
+		<text>Detección.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Prevención</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+	<answer fraction="0">
+		<text>Investigación.</text>
+		<feedback>
+			<text></text>
+		</feedback>
+	</answer>
+</question>
 </quiz>
