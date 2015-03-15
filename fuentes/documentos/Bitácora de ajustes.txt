@@ -1,0 +1,21 @@
+﻿Ajustes solicitados en la revisión del 29/08/2014
+Módulo 1: Autoridades y organismos nacionales e internacionales
+De contenido:
+Incluir al GAFISUD en las entidades a nivel internacional.
+El DAS ya no existe ¿quién reemplaza las funciones que tenía en la lucha contra el LA/FT?
+Hay que incluir a la Dirección antidrogas de la Policía Nacional (antes Policía Antinarcóticos)
+Revisar el alcance de la Fiscalía (extinción de dominio) y participación de la DNE (si todavía existe).
+
+
+Módulo 1: Marco normativo frente al LA/FT
+De diseño e interacción:
+Mejorar la visualización de las deficiones de ley en este punto y todos los otros.
+
+
+Módulo 2: Definición del LA/FT
+De contenido:
+La definición según la ley, es igual a la de Módulo 1: Marco normativo frente al LA/FT, pero la cita legal es distinta. Verificar coherencia de leyes y años citados para ambas definiciones (LA y FT).
+
+De diseño e interacción:
+Usar íconos para los elementos: Bancos, Instituciones financieras no bancarias y negocios no financieros (LAFTMod2Lec2-01.html).
+Mejorar la visualización en tablas con iconos o interactivas (en general para todas las tablas).

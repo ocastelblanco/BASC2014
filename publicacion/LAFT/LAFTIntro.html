@@ -1,0 +1,190 @@
+﻿<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<style>
+.tablaComun.col-20-20-40 th:nth-of-type(1),
+.tablaComun.col-20-20-40 th:nth-of-type(2) {
+    width: 20%;
+}
+.tablaComun.col-20-20-40 th:nth-of-type(3) {
+    width: 40%;
+}
+.tablaComun .panelFuente {
+    font-size: 0.75em;
+    padding: 10px;
+}
+#riesgos th,
+#normaBASC th,
+.tablaComun th,
+.tablaComun table tr th,
+#tablaComun th {
+    text-align: center;
+    vertical-align: middle;
+}
+#riesgos th:nth-of-type(1) {
+    width: 10%;
+}
+#riesgos th:nth-of-type(2) {
+    width: 40%;
+}
+#riesgos th:nth-of-type(3) {
+    width: 20%;
+}
+#riesgos th:nth-of-type(4) {
+    width: 30%;
+}
+#riesgos td,
+#normaBASC td,
+#tablaComun td,
+.tablaComun table tr td {
+    padding: 10px;
+    vertical-align: middle;
+}
+#riesgos td i.fa-exclamation-triangle,
+.tablaComun td i.fa-exclamation-triangle {
+    color: #F55;
+}
+#riesgos td i.fa-lightbulb-o,
+.tablaComun td i.fa-lightbulb-o {
+    color: #55F;
+}
+#riesgos h4.panel-title>a:before,
+#normaBASC h4.panel-title>a:before,
+.tablaComun h4.panel-title>a:before {
+    content: "\f0d7";
+    font-family: FontAwesome;
+}
+#riesgos h4.panel-title>a.collapsed:before,
+#normaBASC h4.panel-title>a.collapsed:before,
+.tablaComun h4.panel-title>a.collapsed:before {
+    content: "\f0da";
+    font-family: FontAwesome;
+}
+#normaBASC th:nth-of-type(1) {
+    width: 60%;
+}
+#normaBASC th:nth-of-type(2) {
+    width: 40%;
+}
+#tablaComun td.amarilla {
+    background-color: #FF0;
+}
+#tablaComun td.roja {
+    background-color: #F00;
+}
+#tablaComun td.verde {
+    background-color: #0F0;
+}
+#tablaComun tfoot {
+    font-size: 10px;
+}
+</style>
+<div class="panel-group tablaComun col-20-20-40">
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent=".tablaComun" class="collapsed" href="#item01">
+						Competencia del curso
+					</a>
+				</h4>
+			</div>
+			<div id="item01" class="panel-collapse collapse">
+				<div class="panel-body">
+					<p>Al finalizar este  curso se espera que usted cuente con las herramientas básicas para identificar los riesgos del Lavado de Activos y Financiación del Terrorismo (LA/FT) y las mejores prácticas para prevenir estas actividades en la empresa.</p>
+				</div><!-- /.panel-body -->
+			</div><!-- /.panel-collapse -->
+		</div><!-- /.panel -->
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent=".tablaComun" class="collapsed" href="#item02">
+						Introducción al curso en plataforma
+					</a>
+				</h4>
+			</div>
+			<div id="item02" class="panel-collapse collapse">
+				<div class="panel-body">
+					<p>En el primer módulo de este curso, se conoceremos el origen histórico de los fenómenos de Lavado de Activos y Financiación del terrorismo, identificaremos los organismos y autoridades nacionales e internacionales creados para luchar en su contra y el marco normativo aplicable.</p>
+					<p>En el segundo módulo, se abordarán los conceptos básicos del Lavado de Activos y la Financiación del Terrorismo, sus etapas y principales consecuencias, tanto para las empresas como para los individuos.</p>
+					<p>Y finalmente, en el tercer módulo, se presentarán las herramientas necesarias para identificar las tipologías del LA/FT, los riesgos posibles y sus acciones preventivas, las señales de alerta y cómo realizar los reportes de operaciones sospechosas (ROS).</p>
+				</div><!-- /.panel-body -->
+			</div><!-- /.panel-collapse -->
+		</div><!-- /.panel -->
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent=".tablaComun" class="collapsed" href="#item03">
+						Plan de estudios del curso
+					</a>
+				</h4>
+			</div>
+			<div id="item03" class="panel-collapse collapse">
+				<div class="panel-body">
+					<table class="table table-bordered table-striped">
+						<thead>
+							<tr class="success">
+								<th rowspan="2">Módulo</th>
+								<th rowspan="2">Objetivo</th>
+								<th rowspan="2">Temas</th>
+								<th colspan="2">Tiempo</th>
+							</tr>
+							<tr>
+								<th>Semanas</th>
+								<th>Horas</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									1. Conozcamos el contexto del LA/FT.
+								</td>
+								<td>
+									Comprender el origen de las actividades de lavado de activos y la financiación del terrorismo.
+								</td>
+								<td>
+									<ul>
+										<li>Contexto histórico nacional e internacional.</li>
+										<li>Autoridades y organismos nacionales e internacionales.</li>
+										<li>Marco normativo.</li>
+									</ul>
+								</td>
+								<td>
+									Primera semana
+								</td>
+								<td>
+									10
+								</td>
+							</tr>
+							<tr>
+								<td>2. Entendamos el lavado de activos y la financiación del terrorismo LA/FT.</td>
+								<td>Reconocer los conceptos básicos asociados con el lavado de activos y la financiación del terrorismo- LA/FT.</td>
+								<td>
+									<ul>
+										<li>Definición del lavado de activos y financiación del terrorismo LA/FT.</li>
+										<li>Etapas del LA/FT.</li>
+										<li>Consecuencias del lavado de activos y financiación.</li>
+									</ul>
+								</td>
+								<td>Segunda semana</td>
+								<td>10</td>
+							</tr>
+							<tr>
+								<td>3. Identifiquemos y actuemos frente a los  riesgos del LA/FT.</td>
+								<td>Identificar los riesgos posibles, las señales de alerta y las acciones preventivas frente al LA/FT.</td>
+								<td>
+									<ul>
+										<li>Tipologías del LA/FT.</li>
+										<li>Señales de alerta.</li>
+										<li>Riesgos posibles y acciones preventivas.</li>
+										<li>Reporte de operaciones sospechosas (ROS).</li>
+									</ul>
+								</td>
+								<td>Tercera y cuarta semanas</td>
+								<td>10</td>
+							</tr>
+						</tbody>
+					</table>
+				</div><!-- /.panel-body -->
+			</div><!-- /.panel-collapse -->
+		</div><!-- /.panel -->
+	</div><!-- /.panel-group -->
