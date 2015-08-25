@@ -1,53 +1,53 @@
 @import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700);
 /* Colores por cada curso */
-#LAFT body,
-#LAFT .barraNav .finCol {
+#GRCA body,
+#GRCA .barraNav .finCol {
     background-color: #9c53b4;
 }
-#LAFT #contenido section {
+#GRCA #contenido section {
     background-color: #c294d1;
 }
-#LAFT #presaberes .radio.form-control {
+#GRCA #presaberes .radio.form-control {
     background: #323a45;
     border-color: #323a45;
 }
-#LAFT .sabiaque {
+#GRCA .sabiaque {
     border: solid 2px #323a45;
     background-color: #323a45;
 }
-#LAFT .sabiaque img {
+#GRCA .sabiaque img {
     background-color: #c294d1;
 }
-#LAFT .lineaTiempo div a.tipo1,
-#LAFT .arbol a.tipo1,
-#LAFT .graficoSimple a.tipo1,
-#LAFT .emparejamiento .tipo1 a,
-#LAFT .listadoHorizontal a.tipo1,
-#LAFT .esquemaCircular div.pasos div.paso a.tipo1 {
+#GRCA .lineaTiempo div a.tipo1,
+#GRCA .arbol a.tipo1,
+#GRCA .graficoSimple a.tipo1,
+#GRCA .emparejamiento .tipo1 a,
+#GRCA .listadoHorizontal a.tipo1,
+#GRCA .esquemaCircular div.pasos div.paso a.tipo1 {
     background-color: #74b233;
     border: 2px solid #bad89a;
 }
-#LAFT .lineaTiempo div a.tipo2,
-#LAFT .arbol a.tipo2,
-#LAFT .graficoSimple a.tipo2,
-#LAFT .emparejamiento .tipo2 a,
-#LAFT .listadoHorizontal a.tipo2,
-#LAFT .esquemaCircular div.pasos div.paso a.tipo2 {
+#GRCA .lineaTiempo div a.tipo2,
+#GRCA .arbol a.tipo2,
+#GRCA .graficoSimple a.tipo2,
+#GRCA .emparejamiento .tipo2 a,
+#GRCA .listadoHorizontal a.tipo2,
+#GRCA .esquemaCircular div.pasos div.paso a.tipo2 {
     background-color: #3b8acd;
     border: 2px solid #1a6fb2;
 }
-#LAFT .lineaTiempo div:after {
+#GRCA .lineaTiempo div:after {
     border-top: 2px solid #924ba9;
 }
-#LAFT .lineaTiempo div:first-of-type:before,
-#LAFT .lineaTiempo div:last-of-type:before,
-#LAFT .seleccionable {
+#GRCA .lineaTiempo div:first-of-type:before,
+#GRCA .lineaTiempo div:last-of-type:before,
+#GRCA .seleccionable {
     background-color: #924ba9;
 }
-#LAFT .lineaTiempo h2:after {
-    background-image: url(../images/LAFT_LineaTiempo.png);
+#GRCA .lineaTiempo h2:after {
+    background-image: url(../images/GRCA_LineaTiempo.png);
 }
-#LAFT blockquote {
+#GRCA blockquote {
     border-left: 5px solid #9c53b4;
 }
 /* Estilos generales para todos los cursos */
@@ -261,9 +261,22 @@ figure.periodico-inicio h2 {
     margin-bottom: 25px;
     color: #000 !important;
 }
-figure.periodico-inicio figcaption,
-figure.periodico-final figcaption {
+figure.periodico-inicio>figcaption,
+figure.periodico-final>figcaption {
     font-style: italic;
+}
+figure.periodico-inicio>figure.imagen-periodico {
+    position: relative;
+}
+figure.periodico-inicio>figure.imagen-periodico>figcaption {
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+figure.periodico-inicio>figure.imagen-periodico>figcaption>a {
+    font-size: 10px;
+    text-decoration: none;
 }
 figure.periodico-inicio:before {
     content: "NotiBASC";
@@ -459,7 +472,7 @@ a.bibliografia:hover {
     text-decoration: none;
 }
 .graficoSimple.mapamundi {
-    background-image: url(../images/LAFTMod1_img06.png);
+    background-image: url(../images/GRCAMod1_img06.png);
 }
 .graficoSimple {
     background-repeat: no-repeat;
