@@ -1,11 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 /* Colores por cada curso */
 #GRCA body,
 #GRCA .barraNav .finCol {
-    background-color: #9c53b4;
+    background-color: #45ad9d;
 }
 #GRCA #contenido section {
-    background-color: #c294d1;
+    background-color: #8cccc2;
 }
 #GRCA #presaberes .radio.form-control {
     background: #323a45;
@@ -16,7 +17,19 @@
     background-color: #323a45;
 }
 #GRCA .sabiaque img {
-    background-color: #c294d1;
+    background-color: #8cccc2;
+}
+#GRCA .btn-primary {
+    background-color: #409e8f;
+    border-color: #3d9889;
+}
+#GRCA .btn-primary:hover {
+    background-color: #358a7d;
+    border-color: #318376;
+}
+#GRCA nav.paginacion .pagination li span,
+#GRCA nav.paginacion .pagination li a {
+    background-color: #323a45;
 }
 #GRCA .lineaTiempo div a.tipo1,
 #GRCA .arbol a.tipo1,
@@ -51,6 +64,47 @@
     border-left: 5px solid #9c53b4;
 }
 /* Estilos generales para todos los cursos */
+.math {
+    position: relative;
+    background-color: #fffff0;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+    box-shadow: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
+}
+.math:before {
+    background-image: url(../images/fondoMath.png);
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.4;
+    border-radius: 5px;
+}
+.math:after {
+    background-image: url(../images/calc.png);
+    background-repeat: no-repeat;
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    width: 18px;
+    height: 25px;
+    z-index: 10;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
 header {
     color: #fff;
 }
@@ -171,7 +225,6 @@ nav.paginacion .pagination li a {
     font-size: 18px;
     line-height: 1em;
     color: #fff;
-    background-color: #35aad9;
     border-radius: 100%;
     padding: 11px 0 10px;
     text-align: center;
@@ -612,6 +665,12 @@ a.bibliografia:hover {
     font-size: 12px;
     text-align: right;
     padding-top: 10px;
+}
+.wrap-img-modal h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 #modal .img-centrada {
     width: 90%;
