@@ -147,6 +147,10 @@ $(function(){
             $('#modal').modal('hide');
         });
     });
+    $('#listaDesplegable li span').hide();
+    $('#listaDesplegable li strong').click(function(){
+        $(this).next().show('slow');
+    });
 }); // Fin de la function inicial
 function emparejamiento() {
     arrastrables = [];

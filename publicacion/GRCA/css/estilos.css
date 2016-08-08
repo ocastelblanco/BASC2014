@@ -36,7 +36,8 @@
 #GRCA .graficoSimple a.tipo1,
 #GRCA .emparejamiento .tipo1 a,
 #GRCA .listadoHorizontal a.tipo1,
-#GRCA .esquemaCircular div.pasos div.paso a.tipo1 {
+#GRCA .esquemaCircular div.pasos div.paso a.tipo1,
+#GRCA #listaDesplegable.tipo1 li strong {
     background-color: #74b233;
     border: 2px solid #bad89a;
 }
@@ -45,7 +46,8 @@
 #GRCA .graficoSimple a.tipo2,
 #GRCA .emparejamiento .tipo2 a,
 #GRCA .listadoHorizontal a.tipo2,
-#GRCA .esquemaCircular div.pasos div.paso a.tipo2 {
+#GRCA .esquemaCircular div.pasos div.paso a.tipo2,
+#GRCA #listaDesplegable.tipo2 li strong {
     background-color: #3b8acd;
     border: 2px solid #1a6fb2;
 }
@@ -825,6 +827,29 @@ a.bibliografia:hover {
 }
 #tablaComun tfoot {
     font-size: 10px;
+}
+#listaDesplegable {
+    list-style-type: none;
+    padding: 0;
+    display: table;
+}
+#listaDesplegable li strong {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0.5em;
+    cursor: pointer;
+    width: 30%;
+    color: #FFF;
+}
+#listaDesplegable li strong:after {
+    font-family: FontAwesome;
+    content: "\f0da";
+    margin-left: 1em;
+}
+#listaDesplegable li span {
+    display: table-cell;
+    padding: 0.5em;
+    background-color: #FFF;
 }
 /* CSS media queries */
 @media (max-width: 767px) {
