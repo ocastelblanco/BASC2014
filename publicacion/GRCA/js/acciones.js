@@ -149,11 +149,22 @@ $(function(){
     });
     $('#listaDesplegable li span').hide();
     $('#listaDesplegable li strong').click(function(){
-        $(this).next().show('slow');
+        $(this).next().show('slide','slow');
     });
     $('.tablaDesplegada tbody tr td:first-of-type').click(function(){
-        $(this).parent().parent().parent().children('thead').children('tr').children('th').show('slow');
-        $(this).next().show('slow');
+        var trigger = $(this);
+        var titulo = $(trigger).parent().parent().parent().children('thead').children('tr').children('th');
+        $(titulo).show(function(){
+            $(trigger).next().show('slide', 'slow', function(){
+                $(this).next().show('slide', 'slow', function(){
+                    $(this).next().show('slide', 'slow', function(){
+                        $(this).next().show('slide', 'slow', function(){
+                            $(this).next().show('slide', 'slow');
+                        });
+                    });
+                });
+            });
+        });
     });
 }); // Fin de la function inicial
 function emparejamiento() {

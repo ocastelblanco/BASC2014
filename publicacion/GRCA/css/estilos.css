@@ -849,6 +849,20 @@ a.bibliografia:hover {
     content: "\f0da";
     margin-left: 1em;
 }
+#listaDesplegable li strong.inline {
+    display: inline;
+    vertical-align: inherit;
+    padding: 0;
+    cursor: inherit;
+    width: auto;
+    color: inherit;
+    background-color: inherit !important;
+    border: inherit !important;
+}
+#listaDesplegable li strong.inline:after {
+    content: "";
+    margin-left: inherit;
+}
 #listaDesplegable li span {
     display: table-cell;
     padding: 0.5em;
