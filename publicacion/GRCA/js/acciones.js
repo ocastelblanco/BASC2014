@@ -151,6 +151,10 @@ $(function(){
     $('#listaDesplegable li strong').click(function(){
         $(this).next().show('slow');
     });
+    $('.tablaDesplegada tbody tr td:first-of-type').click(function(){
+        $(this).parent().parent().parent().children('thead').children('tr').children('th').show('slow');
+        $(this).next().show('slow');
+    });
 }); // Fin de la function inicial
 function emparejamiento() {
     arrastrables = [];
