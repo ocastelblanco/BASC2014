@@ -651,12 +651,14 @@ a.bibliografia:hover {
     border-radius: 50%;
 }
 .img-centrada,
-.img-modal {
+.img-modal,
+.img-modal-xl {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.wrap-img-modal {
+.wrap-img-modal,
+.wrap-img-modal-xl {
     background-color: #eee;
     border-radius: 5px;
     margin-top: 15px;
@@ -666,20 +668,26 @@ a.bibliografia:hover {
     padding-left: 10px;
     padding-top: 10px;
 }
-.wrap-img-modal p {
+.wrap-img-modal p,
+.wrap-img-modal-xl p {
     font-size: 12px;
     text-align: right;
     padding-top: 10px;
 }
-.wrap-img-modal h3 {
+.wrap-img-modal h3,
+.wrap-img-modal-xl h3 {
     font-size: 20px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 5px;
 }
-#modal .img-centrada {
+#modal .img-centrada,
+#modal-xl .img-centrada {
     width: 90%;
     height: auto;
+}
+.modal-xl {
+    width: 95%;
 }
 .tabla thead>tr>th {
     text-transform: uppercase;

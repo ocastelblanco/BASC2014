@@ -103,6 +103,13 @@ $(function(){
     $('#modal').on('hidden.bs.modal', function (e) {
         $('#modal .modal-content').html('');
     });
+    $('.img-modal-xl').wrap('<div class="wrap-img-modal-xl"></div>').click(function() {
+        $('#modalXL .modal-content').append('<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="etiquetaModal">'+$(this).attr('title')+'</h4></div><div class="modal-body"><img src="'+$(this).attr('src')+'" class="img-responsive img-centrada"></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button></div>');
+        $('#modalXL').modal();
+    }).after('<p>Haga clic sobre la imagen para ampliarla</p>');
+    $('#modalXL').on('hidden.bs.modal', function (e) {
+        $('#modalXL .modal-content').html('');
+    });
     $('.seleccionable select').change(function(){
         var frase = $(this).parent();
         var numResp = $(frase).children('select').length;
