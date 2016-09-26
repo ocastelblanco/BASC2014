@@ -158,20 +158,36 @@ $(function(){
     $('#listaDesplegable li strong').click(function(){
         $(this).next().show('slide','slow');
     });
-    $('.tablaDesplegada tbody tr td:first-of-type').click(function(){
+    $('.tablaDesplegada tbody tr td:first-of-type').not('.celdaAbierta').click(function(){
         var trigger = $(this);
         var titulo = $(trigger).parent().parent().parent().children('thead').children('tr').children('th');
-        $(titulo).show(function(){
-            $(trigger).next().show('slide', 'slow', function(){
-                $(this).next().show('slide', 'slow', function(){
-                    $(this).next().show('slide', 'slow', function(){
-                        $(this).next().show('slide', 'slow', function(){
-                            $(this).next().show('slide', 'slow');
+        if ($(trigger).next().is(':visible')) {
+            $(titulo).hide(function(){
+                $(this).next().hide('slide', 'slow', function(){
+                    $(trigger).next().hide('slide', 'slow', function(){
+                        $(this).next().hide('slide', 'slow', function(){
+                            $(this).next().hide('slide', 'slow', function(){
+                                $(this).next().hide('slide', 'slow', function(){
+                                    $(this).next().hide('slide', 'slow');
+                                });
+                            });
                         });
                     });
                 });
             });
-        });
+        } else {
+            $(titulo).show(function(){
+                $(trigger).next().show('slide', 'slow', function(){
+                    $(this).next().show('slide', 'slow', function(){
+                        $(this).next().show('slide', 'slow', function(){
+                            $(this).next().show('slide', 'slow', function(){
+                                $(this).next().show('slide', 'slow');
+                            });
+                        });
+                    });
+                });
+            });
+        }
     });
 }); // Fin de la function inicial
 function emparejamiento() {
